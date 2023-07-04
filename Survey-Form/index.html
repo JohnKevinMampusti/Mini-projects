@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    </head>
+
+    <body>
+        <header><h1 id="title">Survey Form</h1></header>
+        <p id="description">Please fill up the necessary information<p>
+            <form id="survey-form" >
+            <fieldset class="one">
+                <label id="name-label">Name:
+                <input id="name" type="text" placeholder="e.g John Kevin Mampusti "  required>
+                </label>
+                <label id="email-label">Email:
+                <input id="email" type="email" placeholder="e.g example@gmail.com"  required>
+                </label>
+                <label id="number-label">Age:
+                <input id="number" type="number" max="100" min="13" placeholder="e.g 13 to 100"required>
+                </label>
+                <label class="sex">Sex:
+                <label>
+                <input id="male" type="radio" value="male" name="acount-type">Male
+                </label>
+                <label>
+                <input id="female" 
+                value="female"type="radio" name="acount-type">Female
+                </label>
+                </label>
+            </fieldset>
+
+            <fieldset class="two">
+                <label>How did you hear about us?
+                <select id="dropdown">
+                    <option value="" ="select">(select option)</option>
+                    <option value="1">freeCodeCamp News</option>
+                    <option value="2">freeCodeCamp YouTube Channel</option>
+                </select>
+                </label>
+
+                <label>What programming langauage you know?
+                <label>
+                <input type="checkbox" id="c#" name="c#" value="a">
+                C#</label>
+                </label>
+                <label>
+                <input type="checkbox" id="c++" name="c++" value="b">
+                C++</label>
+                </label>
+                <label>
+                <input type="checkbox" id="java" name="java" value="c">
+                Java</label>
+                <label>
+                <input type="checkbox" id="js" name="js" value="d">
+                Js</label>
+                </label>
+                </label>
+            </fieldset>
+
+            <fieldset class ="three">
+                <label>
+                Any suggestion or comments?</label>
+                <textarea id="comment" name="comment" rows="4" cols="120" placeholder="Enter here..."></textarea>
+
+            </fieldset>
+            <fieldset class="four">
+                <div class="submit"><input type="submit" name="Submit" id="submit"></div>
+            </fieldset>
+            <div class="main-submit">
+            
+            </form>
+    </body>
+</html>
