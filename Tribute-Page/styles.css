@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+.navbar h1{
+    font-weight: 700;;
+}
+p{
+  font-style:Sans-serif;
+  font-size:20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body{
+  background:skyblue;
+  margin:0 50px;
+  padding : 0 30px;
+
+
+}
+h1{
+  text-align:center;
+  font-size:35px;
+  font-style:serif;
+  border-radius:10px;
+  padding-top:10px;
+  margin-top:30px;
+  
+
+}
+header h1{
+    
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.nav-link{
+  display:inline-flex;
+  justify-content:space-between;
+  color:green;
+  text-decoration:none;
+  font-size:1.2rem;
+  flex-wrap:no-wrap;
+  margin-left:20px;
+  font-weight:bold;
+}
+.nav-link:hover{
+    color:gold;
+}
+.god-son{
+    font-size: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:0;
+    margin-bottom:15px;
+    background:#79E0EE;
+    width:100%;
+}
+ 
+#navbar{
+  padding-bottom:0
+}
+@media (max-width: 768px){
+  h1{
+    width:500px;
+  }
+}
+.saviour{
+  margin-top:40px;
+}
+.main-section{
+    margin:0;
+    padding:0;
+}
+
+header{
+    padding-top:0;
+    margin-top:0;
+}
+#Jesus_is_My_Everything{
+    margin-bottom:50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
